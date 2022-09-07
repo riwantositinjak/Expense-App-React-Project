@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses";
+import "./components/Heading.css";
 
 function App() {
   const expense = [
@@ -19,7 +20,7 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <h2 className="title">Learning ReactJS</h2>
       <Expenses items={expense} />
     </div>
   );
