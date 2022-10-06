@@ -1,5 +1,5 @@
-import Expenses from "./components/Expenses";
-import "./components/Heading.css";
+import Expenses from "./components/Expenses/Expenses";
+import "./components/Expenses/Heading.css";
 
 function App() {
   const expense = [
