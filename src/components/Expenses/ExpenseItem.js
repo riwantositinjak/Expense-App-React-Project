@@ -5,6 +5,7 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
+  console.log("this component will be executed again")
 
   const eventHandler = () => {
     setTitle("Update Title");
