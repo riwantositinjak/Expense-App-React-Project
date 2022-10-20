@@ -38,7 +38,7 @@ const ExpenseForm = (props) => {
     event.preventDefault();
     const expenseData = {
       title: titleChange,
-      amount: amountChange,
+      amount: +amountChange,
       date: new Date(dateChange),
     };
     props.onSaveExpenseData(expenseData);
